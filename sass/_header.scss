@@ -1,0 +1,35 @@
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: $relway;
+	height: 20vh;
+	background-color: $purple;
+	.header {
+		&__content {
+			display: flex;
+			align-items: center;
+
+			&--heading {
+				font-size: 4em;
+				color: #fff;
+			}
+
+			&--breadcrumb {
+				font-size: 2em;
+				background: none;
+				display: flex;
+				flex-direction: column;
+				align-items: end;
+
+				.breadcrumb-item {
+					a {
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #333;
+  color: #000;
+}
+
+nav {
+  background-color: #fff;
+}
+nav .navbar-brand {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #666;
+}
+nav .navbar-brand .around {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #ea623d;
+  color: #fff;
+  border: none;
+}
+nav .navbar-collapse form button {
+  background-color: #fff;
+  border: none;
+}
+nav .navbar-collapse form button i {
+  font-size: 1.6em;
+  color: #666;
+}
+nav .navbar-collapse .navbar-nav .nav-item a {
+  font-size: 1.6em;
+  color: #666;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  height: 20vh;
+  background-color: #453951;
+}
+header .header__content {
+  display: flex;
+  align-items: center;
+}
+header .header__content--heading {
+  font-size: 4em;
+  color: #fff;
+}
+header .header__content--breadcrumb {
+  font-size: 2em;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+header .header__content--breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

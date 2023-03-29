@@ -1,0 +1,23 @@
+@import './colors';
+@import './fonts';
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: $roboto;
+	background-color: #333;
+	color: #000;
+}
+
+@import './nav';
+@import './header';
