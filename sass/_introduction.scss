@@ -1,0 +1,22 @@
+&__introduction {
+	&--img {
+		margin: 20px 0 50px;
+
+		background-color: #b1abb6;
+		width: 570px;
+		height: 327px;
+	}
+
+	&__content {
+		margin: 20px 0 50px 30px;
+		&--head {
+			color: #414141;
+			font-size: 2.4em;
+			padding-bottom: 20px;
+		}
+
+		&--text {
+			font-size: 1.6em;
+		}
+	}
+}

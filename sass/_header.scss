@@ -4,7 +4,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	font-family: $relway;
-	height: 20vh;
+	height: 15vh;
 	background-color: $purple;
 	.header {
 		&__content {
@@ -19,12 +19,12 @@ header {
 			}
 
 			&--breadcrumb {
-				font-size: 2em;
+				font-size: 1.6em;
 				background: none;
 				display: flex;
 				flex-direction: column;
-				justify-content: end;
 				align-items: end;
+				justify-content: flex-end;
 
 				.breadcrumb-item {
 					a {

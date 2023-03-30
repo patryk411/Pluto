@@ -1,0 +1,51 @@
+&__services {
+	display: flex;
+	flex-direction: column;
+	background-color: $section-color;
+
+	&--top-heading {
+		@include section-title;
+	}
+
+	&--head {
+		margin: 20px 0;
+		text-align: center;
+		font-size: 4em;
+		color: #333;
+	}
+
+	&--text {
+		text-align: center;
+		font-size: 1.8em;
+		color: #666;
+	}
+
+	&__main-box {
+		margin: 80px 0;
+
+		&__box {
+			&--icon-box {
+				border-radius: 50%;
+				width: 40px;
+				height: 40px;
+				background-color: $orange;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 1.8em;
+				color: #fff;
+			}
+
+			&--normal-box {
+				margin-left: 10px;
+				h3 {
+					font-size: 2.4em;
+				}
+
+				p {
+					font-size: 1.4em;
+				}
+			}
+		}
+	}
+}
