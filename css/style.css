@@ -101,15 +101,15 @@ header .header__content--breadcrumb .breadcrumb-item a {
   font-size: 1.6em;
 }
 .main__services {
-  display: flex;
-  flex-direction: column;
   background-color: #f5f5f5;
 }
 .main__services--top-heading {
   margin-top: 20px;
   text-align: center;
   color: #9f9f9f;
-  font-size: 2em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .main__services--head {
   margin: 20px 0;
@@ -125,7 +125,10 @@ header .header__content--breadcrumb .breadcrumb-item a {
 .main__services__main-box {
   margin: 80px 0;
 }
-.main__services__main-box__box--icon-box {
+.main__services__main-box__box {
+  margin: 20px 0;
+}
+.main__services__main-box__box__icon-content {
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -136,13 +139,13 @@ header .header__content--breadcrumb .breadcrumb-item a {
   font-size: 1.8em;
   color: #fff;
 }
-.main__services__main-box__box--normal-box {
+.main__services__main-box__box__box-content {
   margin-left: 10px;
 }
-.main__services__main-box__box--normal-box h3 {
+.main__services__main-box__box__box-content--title {
   font-size: 2.4em;
 }
-.main__services__main-box__box--normal-box p {
+.main__services__main-box__box__box-content--text {
   font-size: 1.4em;
 }
 
