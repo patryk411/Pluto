@@ -148,6 +148,174 @@ header .header__content--breadcrumb .breadcrumb-item a {
 .main__services__main-box__box__box-content--text {
   font-size: 1.4em;
 }
+.main__capabilities {
+  background-color: #fff;
+}
+.main__capabilities--top-heading {
+  margin-top: 20px;
+  text-align: center;
+  color: #9f9f9f;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main__capabilities--head {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 4em;
+  color: #333;
+}
+.main__capabilities__content {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+}
+.main__capabilities__content__left .accordion .accordion-item {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+.main__capabilities__content__left .accordion .accordion-item .accordion-button {
+  font-weight: bold;
+  font-size: 1em;
+  padding-left: 50px;
+  background-color: #fff;
+}
+.main__capabilities__content__left .accordion .accordion-button:focus {
+  border-color: #fff;
+  box-shadow: none;
+}
+.main__capabilities__content__left .accordion .accordion-button:not(.collapsed) {
+  color: black;
+}
+.main__capabilities__content__left .accordion .accordion-button::after {
+  content: "";
+  top: 10px;
+  position: absolute;
+  transform: translate(-110%, 0);
+  background-size: 0.9em;
+  width: 30px;
+  height: 30px;
+  background-image: url("/plus-solid.svg");
+}
+.main__capabilities__content__left .accordion .accordion-button::after .accordion-button::before {
+  content: "";
+  background-image: url("/minus-solid.svg");
+  top: 10px;
+  position: absolute;
+  transform: translate(-110%, 0);
+  background-size: 4em;
+  width: 30px;
+  height: 30px;
+}
+.main__capabilities__content__left .accordion-body {
+  margin-left: 37px;
+  font-size: 2em;
+}
+.main__capabilities__content__right {
+  width: 33vw;
+}
+.main__capabilities__content__right .progress-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__capabilities__content__right .progress-content h3 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.main__capabilities__content__right .progress-head {
+  margin-bottom: 10px;
+}
+.main__capabilities__content__right .progress {
+  margin-bottom: 25px;
+  height: 5px;
+  border-radius: 0;
+}
+.main__capabilities__content__right .progress .progress-bar {
+  background-color: #453951;
+}
+.main .row-capabilities {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.main__testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height: 40vh;
+  background-color: #453951;
+}
+.main__testimonials .carousel .carousel-indicators button {
+  margin-bottom: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+.main__testimonials .carousel .carousel-inner .carousel-item {
+  margin-bottom: 100px;
+}
+.main__testimonials .carousel .carousel-inner .carousel-item h5 {
+  text-align: center;
+  font-size: 2.6em;
+  color: #fff;
+}
+.main__testimonials .carousel .carousel-inner .carousel-item p {
+  color: #8f8897;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+.main__testimonials .carousel .carousel-inner .carousel-indicators button {
+  background-color: red;
+}
+.main__testimonials .carousel button span {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 150px;
+}
+.main__testimonials .carousel button .carousel-control-next-icon {
+  margin-left: 200px;
+}
+.main__testimonials .carousel button .carousel-control-prev-icon {
+  margin-right: 200px;
+}
+.main__team--top-heading {
+  margin-top: 20px;
+  text-align: center;
+  color: #9f9f9f;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main__team--head {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 4em;
+  color: #333;
+}
+.main__team__content__box--img {
+  width: 270px;
+  height: 280px;
+  background-color: #b1abb6;
+}
+.main__team__content__box__text--author {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+.main__team__content__box__text--position {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #999;
+}
 
 @media (max-width: 576px) {
   header .header__content {
@@ -230,5 +398,179 @@ header .header__content--breadcrumb .breadcrumb-item a {
   }
   .main__introduction__content--text {
     font-size: 2em;
+  }
+  .main__capabilities {
+    background-color: #fff;
+  }
+  .main__capabilities--top-heading {
+    margin-top: 20px;
+    text-align: center;
+    color: #9f9f9f;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .main__capabilities--head {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 4em;
+    color: #333;
+  }
+  .main__capabilities__content__left .accordion .accordion-item {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #e5e5e5;
+  }
+  .main__capabilities__content__left .accordion .accordion-item .accordion-button {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 60px;
+    background-color: #fff;
+  }
+  .main__capabilities__content__left .accordion .accordion-button:focus {
+    border-color: #fff;
+    box-shadow: none;
+  }
+  .main__capabilities__content__left .accordion .accordion-button:not(.collapsed) {
+    color: black;
+  }
+  .main__capabilities__content__left .accordion .accordion-button::after {
+    content: "";
+    top: 10px;
+    position: absolute;
+    transform: translate(-110%, 0);
+    background-size: 0.9em;
+    width: 30px;
+    height: 30px;
+    background-image: url("/plus-solid.svg");
+  }
+  .main__capabilities__content__left .accordion .accordion-button::after .accordion-button::before {
+    content: "";
+    background-image: url("/minus-solid.svg");
+    top: 10px;
+    position: absolute;
+    transform: translate(-110%, 0);
+    background-size: 4em;
+    width: 30px;
+    height: 30px;
+  }
+  .main__capabilities__content__left .accordion-body {
+    margin-left: 48px;
+    font-size: 2.2em;
+  }
+  .main__capabilities__content__right {
+    width: 100vw;
+  }
+  .main__capabilities__content__right .progress-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main__capabilities__content__right .progress-content h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+  .main__capabilities__content__right .progress-head {
+    margin-bottom: 10px;
+  }
+  .main__capabilities__content__right .progress {
+    margin-bottom: 25px;
+    height: 5px;
+    border-radius: 0;
+  }
+  .main__capabilities__content__right .progress .progress-bar {
+    background-color: #453951;
+  }
+}
+@media (max-width: 992px) {
+  .main__capabilities {
+    background-color: #fff;
+  }
+  .main__capabilities--top-heading {
+    margin-top: 20px;
+    text-align: center;
+    color: #9f9f9f;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .main__capabilities--head {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 4em;
+    color: #333;
+  }
+  .main__capabilities__content {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+  }
+  .main__capabilities__content__left .accordion .accordion-item {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .main__capabilities__content__left .accordion .accordion-item .accordion-button {
+    font-weight: bold;
+    font-size: 1em;
+    padding-left: 50px;
+    background-color: #fff;
+  }
+  .main__capabilities__content__left .accordion .accordion-button:focus {
+    border-color: #fff;
+    box-shadow: none;
+  }
+  .main__capabilities__content__left .accordion .accordion-button:not(.collapsed) {
+    color: black;
+  }
+  .main__capabilities__content__left .accordion .accordion-button::after {
+    content: "";
+    top: 10px;
+    position: absolute;
+    transform: translate(-110%, 0);
+    background-size: 0.9em;
+    width: 30px;
+    height: 30px;
+    background-image: url("/plus-solid.svg");
+  }
+  .main__capabilities__content__left .accordion .accordion-button::after .accordion-button::before {
+    content: "";
+    background-image: url("/minus-solid.svg");
+    top: 10px;
+    position: absolute;
+    transform: translate(-110%, 0);
+    background-size: 4em;
+    width: 30px;
+    height: 30px;
+  }
+  .main__capabilities__content__left .accordion-body {
+    margin-left: 37px;
+    font-size: 2em;
+  }
+  .main__capabilities__content__right {
+    width: 100vw;
+  }
+  .main__capabilities__content__right .progress-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main__capabilities__content__right .progress-content h3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+  .main__capabilities__content__right .progress-head {
+    margin-bottom: 10px;
+  }
+  .main__capabilities__content__right .progress {
+    margin-bottom: 25px;
+    height: 5px;
+    border-radius: 0;
+  }
+  .main__capabilities__content__right .progress .progress-bar {
+    background-color: #453951;
   }
 }/*# sourceMappingURL=style.css.map */

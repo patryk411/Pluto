@@ -27,6 +27,9 @@ body {
 	background-color: #fff;
 	@import './introduction';
 	@import './services';
+	@import './capabilities';
+	@import './testimonials';
+	@import './team';
 }
 
 @media (max-width: 576px) {
@@ -141,6 +144,205 @@ body {
 
 				&--text {
 					font-size: 2em;
+				}
+			}
+		}
+
+		&__capabilities {
+			background-color: #fff;
+
+			&--top-heading {
+				@include section-title;
+			}
+
+			&--head {
+				@include section-head;
+			}
+
+			&__content {
+				&__left {
+					.accordion {
+						.accordion-item {
+							background: none;
+							border: none;
+							border-bottom: 2px solid #e5e5e5;
+
+							.accordion-button {
+								font-weight: bold;
+								font-size: 1.2em;
+								padding-left: 60px;
+								background-color: #fff;
+							}
+						}
+
+						.accordion-button:focus {
+							border-color: #fff;
+							box-shadow: none;
+						}
+
+						.accordion-button:not(.collapsed) {
+							color: black;
+						}
+
+						.accordion-button::after {
+							content: '';
+							top: 10px;
+							position: absolute;
+							transform: translate(-110%, 0);
+							background-size: 0.9em;
+							width: 30px;
+							height: 30px;
+							background-image: url('/plus-solid.svg');
+
+							.accordion-button::before {
+								content: '';
+								background-image: url('/minus-solid.svg');
+								top: 10px;
+								position: absolute;
+								transform: translate(-110%, 0);
+								background-size: 4em;
+								width: 30px;
+								height: 30px;
+							}
+						}
+					}
+					.accordion-body {
+						margin-left: 48px;
+						font-size: 2.2em;
+					}
+				}
+
+				&__right {
+					width: 100vw;
+					.progress-content {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						justify-content: space-between;
+
+						h3 {
+							text-transform: uppercase;
+							font-size: 2em;
+						}
+					}
+
+					.progress-head {
+						margin-bottom: 10px;
+					}
+
+					.progress {
+						margin-bottom: 25px;
+						height: 5px;
+						border-radius: 0;
+
+						.progress-bar {
+							background-color: $purple;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.main {
+		&__capabilities {
+			background-color: #fff;
+
+			&--top-heading {
+				@include section-title;
+			}
+
+			&--head {
+				@include section-head;
+			}
+
+			&__content {
+				display: flex;
+				flex-direction: column;
+				align-items: space-between;
+				justify-content: center;
+
+				&__left {
+					.accordion {
+						.accordion-item {
+							background: none;
+							border: none;
+							border-bottom: 1px solid #e5e5e5;
+
+							.accordion-button {
+								font-weight: bold;
+								font-size: 1em;
+								padding-left: 50px;
+								background-color: #fff;
+							}
+						}
+
+						.accordion-button:focus {
+							border-color: #fff;
+							box-shadow: none;
+						}
+
+						.accordion-button:not(.collapsed) {
+							color: black;
+						}
+
+						.accordion-button::after {
+							content: '';
+							top: 10px;
+							position: absolute;
+							transform: translate(-110%, 0);
+							background-size: 0.9em;
+							width: 30px;
+							height: 30px;
+							background-image: url('/plus-solid.svg');
+
+							.accordion-button::before {
+								content: '';
+								background-image: url('/minus-solid.svg');
+								top: 10px;
+								position: absolute;
+								transform: translate(-110%, 0);
+								background-size: 4em;
+								width: 30px;
+								height: 30px;
+							}
+						}
+					}
+					.accordion-body {
+						margin-left: 37px;
+						font-size: 2em;
+					}
+				}
+
+				&__right {
+					width: 100vw;
+					.progress-content {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						justify-content: space-between;
+
+						h3 {
+							text-transform: uppercase;
+							font-size: 1.5em;
+						}
+					}
+
+					.progress-head {
+						margin-bottom: 10px;
+					}
+
+					.progress {
+						margin-bottom: 25px;
+						height: 5px;
+						border-radius: 0;
+
+						.progress-bar {
+							background-color: $purple;
+						}
+					}
 				}
 			}
 		}

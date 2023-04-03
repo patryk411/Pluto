@@ -1,0 +1,33 @@
+&__team {
+	&--top-heading {
+		@include section-title;
+	}
+
+	&--head {
+		@include section-head;
+	}
+
+	&__content {
+		&__box {
+			&--img {
+				width: 270px;
+				height: 280px;
+				background-color: #b1abb6;
+			}
+
+			&__text {
+				&--author {
+					font-size: 2em;
+					font-weight: bold;
+					margin: 10px 0;
+					color: #333;
+				}
+				&--position {
+					font-size: 1.3em;
+					text-transform: uppercase;
+					color: #999;
+				}
+			}
+		}
+	}
+}
