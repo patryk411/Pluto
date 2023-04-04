@@ -1,0 +1,39 @@
+&__clients {
+	background-color: #f5f5f5;
+
+	&__text-content {
+		&--top-heading {
+			margin-top: 20px;
+			text-align: left;
+			color: #9f9f9f;
+			font-size: 1.4em;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+
+		&--head {
+			margin: 20px 0;
+			text-align: left;
+			font-size: 4em;
+			color: #333;
+		}
+
+		&--text {
+			color: #666;
+			font-size: 1.6em;
+		}
+	}
+
+	&__boxs {
+		display: flex;
+		flex-direction: row;
+		align-items: start;
+		justify-content: space-evenly;
+
+		&--single-box {
+			width: 10vw;
+			height: 90px;
+			background-color: #b1abb6;
+		}
+	}
+}

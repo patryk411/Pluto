@@ -1,0 +1,108 @@
+.footer {
+	font-size: 1.4em;
+	color: #555258;
+	background-color: #2a272e;
+	&__content {
+		&__single-box {
+			.footer-brand {
+				font-size: 1.1em;
+				text-decoration: none;
+				color: #555258;
+				text-transform: uppercase;
+				letter-spacing: 3px;
+				font-weight: bold;
+
+				.around-footer {
+					margin-bottom: 20px;
+					border-radius: 50%;
+					width: 45px;
+					height: 45px;
+					background-color: #555258;
+					color: #2a272e;
+					border: none;
+
+					i {
+						font-size: 1.5em;
+					}
+				}
+			}
+		}
+		&__single-box-two {
+			&--heading {
+				font-size: 1.1em;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin-bottom: 15px;
+			}
+
+			&--link {
+				text-decoration: none;
+				font-size: 1.4em;
+				color: $orange;
+				transition: color 0.5s;
+			}
+
+			&--link:hover {
+				color: #924632;
+			}
+
+			&--informations {
+				margin-top: 10px;
+				color: #acabac;
+				font-size: 1.1em;
+			}
+		}
+
+		&__single-box-three {
+			&--heading {
+				font-size: 1.1em;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin-bottom: 15px;
+			}
+
+			&--month {
+				font-size: 0.9em;
+				text-transform: uppercase;
+			}
+
+			&--informations {
+				margin-top: 10px;
+				color: #acabac;
+				font-size: 1.1em;
+
+				a {
+					text-decoration: none;
+					transition: color 0.5s;
+					color: $orange;
+				}
+
+				a:hover {
+					color: #924632;
+				}
+			}
+		}
+
+		&__single-box-four {
+			&--heading {
+				font-size: 1.1em;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin-bottom: 15px;
+			}
+
+			&__main-box {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-between;
+
+				&--box {
+					width: 25%;
+					height: 80px;
+					background-color: #6d6872;
+				}
+			}
+		}
+	}
+}

@@ -10,7 +10,7 @@
 	&__content {
 		&__box {
 			&--img {
-				width: 270px;
+				width: 85%;
 				height: 280px;
 				background-color: #b1abb6;
 			}
@@ -26,6 +26,24 @@
 					font-size: 1.3em;
 					text-transform: uppercase;
 					color: #999;
+				}
+
+				.single-line {
+					width: 85%;
+				}
+			}
+
+			&--icon {
+				font-size: 2em;
+				a {
+					margin-right: 10px;
+					color: #999;
+					transition: color 0.5s;
+					text-decoration: none;
+				}
+
+				a:hover {
+					color: #333;
 				}
 			}
 		}
