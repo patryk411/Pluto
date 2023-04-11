@@ -288,11 +288,11 @@ header .header__content__right--breadcrumb .breadcrumb-item a {
   background-size: 0.9em;
   width: 30px;
   height: 30px;
-  background-image: url("/plus-solid.svg");
+  background-image: url("/svg/plus-solid.svg");
 }
 .main__capabilities__content__left .accordion .accordion-button::after .accordion-button::before {
   content: "";
-  background-image: url("/minus-solid.svg");
+  background-image: url("/svg/plus-solid.svg");
   top: 10px;
   position: absolute;
   transform: translate(-110%, 0);
@@ -697,11 +697,11 @@ header .header__content__right--breadcrumb .breadcrumb-item a {
     background-size: 0.9em;
     width: 30px;
     height: 30px;
-    background-image: url("/plus-solid.svg");
+    background-image: url("/svg/plus-solid.svg");
   }
   .main__capabilities__content__left .accordion .accordion-button::after .accordion-button::before {
     content: "";
-    background-image: url("/minus-solid.svg");
+    background-image: url("/svg/minus-solid.svg");
     top: 10px;
     position: absolute;
     transform: translate(-110%, 0);
@@ -928,11 +928,11 @@ header .header__content__right--breadcrumb .breadcrumb-item a {
     background-size: 0.9em;
     width: 30px;
     height: 30px;
-    background-image: url("/plus-solid.svg");
+    background-image: url("/svg/plus-solid.svg");
   }
   .main__capabilities__content__left .accordion .accordion-button::after .accordion-button::before {
     content: "";
-    background-image: url("/minus-solid.svg");
+    background-image: url("/svg/minus-solid.svg");
     top: 10px;
     position: absolute;
     transform: translate(-110%, 0);

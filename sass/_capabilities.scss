@@ -47,11 +47,11 @@
 					background-size: 0.9em;
 					width: 30px;
 					height: 30px;
-					background-image: url('/plus-solid.svg');
+					background-image: url('/svg/plus-solid.svg');
 
 					.accordion-button::before {
 						content: '';
-						background-image: url('/minus-solid.svg');
+						background-image: url('/svg/plus-solid.svg');
 						top: 10px;
 						position: absolute;
 						transform: translate(-110%, 0);
